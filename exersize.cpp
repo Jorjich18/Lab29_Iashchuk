@@ -12,6 +12,8 @@ struct celebrating {
 
 void create_file(char* name)
 {
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutpuCP(CP_UTF8);
     FILE* f;
     char s[100];
     if (fopen_s(&f, name, "at+") != 0 || f == NULL) {
@@ -30,6 +32,8 @@ void create_file(char* name)
 
 void view_text_file(char* name) 
 {
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutpuCP(CP_UTF8);
     celebrating z;
     FILE* f;
     char s[100];
@@ -48,6 +52,8 @@ void view_text_file(char* name)
 
 void select_nearest_winter_holiday(char* name)
 {
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutpuCP(CP_UTF8);
     celebrating z;
     FILE* f;
     char s[100];
