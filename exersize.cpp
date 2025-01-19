@@ -1,4 +1,3 @@
-#pragma execution_character_set("utf-8")
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <ctime>
